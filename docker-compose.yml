@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+  graphite-statsd:
+    image: "marial/grafana-graphite-statsd:latest"
+    ports:
+      - "8888:80"
+      - "8124:8125/udp"
+      - "8126:8126"
+
+  mongo:
+    image: "mongo:latest"
+    ports:
+      - "27017:27017"
