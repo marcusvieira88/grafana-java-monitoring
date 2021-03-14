@@ -1,6 +1,6 @@
 # Introduction
 
-This is a Grafana monitoring example, that was populated using a GraphQl API implemented in Java, it is used as example in my [blog tutorials](https://marcusvieira.tech/2018/12/28/java-application-monitoring-with-grafana-graphite-and-statsd/).
+This is a Grafana monitoring example, that was populated using a GraphQl API implemented in Java, it is used as example in my [blog tutorials](https://www.marcusvieira.tech/java-application-monitoring-with-grafana-graphite-and-statsd).
 
 ## For prepare the Grafana, Graphite and StatsD environments, please run:
 ```
